@@ -7,7 +7,6 @@ Small python HTTP(S) proxy and interceptor
 from rulpsen import Rulpsen
 from re import sub
 
-all_urls = []
 
 def callback(request, response, connexion):
     print(request.uri)
